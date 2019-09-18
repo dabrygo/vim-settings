@@ -2,6 +2,9 @@ set guifont=Ubuntu_Mono:h14
 
 colorscheme peachpuff
 
+" Add line numbers
+set number
+
 " PEP-8 style linewidth
 set textwidth=79
 
