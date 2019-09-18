@@ -1,3 +1,12 @@
 set guifont=Ubuntu_Mono:h14
 
 colorscheme peachpuff
+
+" PEP-8 style linewidth
+set textwidth=79
+
+" Tab = 2 spaces
+set tabstop=2
+set softtabstop=2
+set shiftwidth=2
+
