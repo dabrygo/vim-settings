@@ -1,5 +1,8 @@
 set guifont=Ubuntu_Mono:h14
 
+
+cd $HOME/OneDrive/Documents
+
 colorscheme peachpuff
 
 " Add line numbers
