@@ -18,4 +18,5 @@ set shiftwidth=2
 set expandtab
 
 " Case-insensitive search if lowercase
+set ignorecase
 set smartcase
