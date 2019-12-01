@@ -20,3 +20,7 @@ set softtabstop=2
 set shiftwidth=2
 set expandtab
 retab
+
+" Case-insensitive search if lowercase
+set ignorecase
+set smartcase
