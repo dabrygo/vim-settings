@@ -14,12 +14,16 @@ set textwidth=79
 " Readable whitespace characters
 set listchars=tab:>-,trail:-,eol:$ list
 
-" Tab = 2 spaces
+" WHITESPACE
+" http://vimcasts.org/episodes/tabs-and-spaces/
+" Render a tab as this many spaces
 set tabstop=2
+" TODO
 set softtabstop=2
+" TODO
 set shiftwidth=2
+" Use spaces instead of tabs
 set expandtab
-retab
 
 " Case-insensitive search if lowercase
 set ignorecase
