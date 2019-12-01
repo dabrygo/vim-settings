@@ -11,9 +11,12 @@ set number
 " PEP-8 style linewidth
 set textwidth=79
 
+" Readable whitespace characters
+set listchars=tab:>-,trail:-,eol:$ list
+
 " Tab = 2 spaces
 set tabstop=2
 set softtabstop=2
 set shiftwidth=2
 set expandtab
-
+retab
