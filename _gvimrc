@@ -28,3 +28,12 @@ set expandtab
 " Case-insensitive search if lowercase
 set ignorecase
 set smartcase
+
+" Don't save files that end with ~ to pwd
+" https://stackoverflow.com/a/6367422/11415371
+set backup
+set backupdir=C:/WINDOWS/TEMP
+set backupskip=C:/WINDOWS/Temp/*
+set directory=C:/WINDOWS/Temp
+set undodir=C:/WINDOWS/Temp
+set writebackup
