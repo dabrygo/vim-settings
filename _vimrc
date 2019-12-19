@@ -1,3 +1,6 @@
+"
+" Predefined behavior
+"
 source $VIMRUNTIME/vimrc_example.vim
 " source $VIMRUNTIME/mswin.vim
 behave mswin
@@ -32,3 +35,11 @@ function MyDiff()
   endif
 endfunction
 
+" Don't save files that end with ~ to pwd
+" https://stackoverflow.com/a/6367422/11415371
+set backup
+set backupdir=C:/WINDOWS/TEMP
+set backupskip=C:/WINDOWS/Temp/*
+set directory=C:/WINDOWS/Temp
+set undodir=C:/WINDOWS/Temp
+set writebackup
