@@ -9,6 +9,9 @@ behave mswin
 set ignorecase
 set smartcase
 
+" Default colorscheme
+colorscheme desert
+
 set diffexpr=MyDiff()
 function MyDiff()
   let opt = '-a --binary '
