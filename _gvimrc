@@ -25,7 +25,3 @@ set shiftwidth=2
 " Use spaces instead of tabs
 set expandtab
 
-" Case-insensitive search if lowercase
-set ignorecase
-set smartcase
-

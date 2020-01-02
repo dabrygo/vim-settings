@@ -5,6 +5,10 @@ source $VIMRUNTIME/vimrc_example.vim
 " source $VIMRUNTIME/mswin.vim
 behave mswin
 
+" Case-insensitive search if lowercase
+set ignorecase
+set smartcase
+
 set diffexpr=MyDiff()
 function MyDiff()
   let opt = '-a --binary '
