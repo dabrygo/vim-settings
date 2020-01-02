@@ -42,8 +42,8 @@ endfunction
 " Don't save files that end with ~ to pwd
 " https://stackoverflow.com/a/6367422/11415371
 set backup
-set backupdir=C:/WINDOWS/TEMP
+set backupdir=C:/WINDOWS/TEMP,~/.vim/.backup
 set backupskip=C:/WINDOWS/Temp/*
-set directory=C:/WINDOWS/Temp
-set undodir=C:/WINDOWS/Temp
+set directory=C:/WINDOWS/Temp,~/.vim/.swp
+set undodir=C:/WINDOWS/Temp,~/.vim/.undo
 set writebackup
