@@ -1,7 +1,9 @@
 set guifont=Ubuntu_Mono:h14
 
 
-cd $HOME/OneDrive/Documents
+function Doc()
+  cd $HOME/OneDrive/Documents
+endfunction
 
 colorscheme peachpuff
 
