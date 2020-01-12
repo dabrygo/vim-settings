@@ -27,6 +27,9 @@ source $VIMRUNTIME/vimrc_example.vim
 " source $VIMRUNTIME/mswin.vim
 behave mswin
 
+" Add new splits to bottom
+set splitbelow
+
 " Case-insensitive search if lowercase
 set ignorecase
 set smartcase
