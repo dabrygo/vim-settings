@@ -12,6 +12,8 @@ call vundle#begin()
   Plugin 'gmarik/Vundle.vim'
   " Folds classes/methods/etc.
   Plugin 'tmhedberg/SimpylFold'
+  " Git commands in vim prefixed by G (e.g. `Gstatus`)
+  Plugin 'tpope/vim-fugitive'
 call vundle#end()            " required
 filetype plugin indent on    " required
 
