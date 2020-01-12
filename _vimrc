@@ -31,6 +31,12 @@ behave mswin
 set splitbelow
 set splitright
 
+" Custom hotkeys for navigating split windows
+nnoremap <C-J> <C-W><C-J>
+nnoremap <C-K> <C-W><C-K>
+nnoremap <C-L> <C-W><C-L>
+nnoremap <C-H> <C-W><C-H>
+
 " Case-insensitive search if lowercase
 set ignorecase
 set smartcase
