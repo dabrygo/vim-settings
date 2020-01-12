@@ -2,6 +2,9 @@
 set nocompatible     " required
 filetype off         " required
 
+"""
+" Plugins
+"""
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
@@ -61,3 +64,13 @@ set backupskip=C:/WINDOWS/Temp/*
 set directory=.swp,C:/WINDOWS/Temp,~/.vim/.swp,
 set undodir=.undo,C:/WINDOWS/Temp,~/.vim/.undo
 set writebackup
+
+" PEP8-compliant indentation/whitespace
+au BufNewFile,BufRead *.py
+  \ set tabstop=4 |
+  \ set softtabstop=4 |
+  \ set shiftwidth=4 |
+  \ set textwidth=79 |
+  \ set expandtab |
+  \ set autoindent |
+  \ set fileformat=unix
