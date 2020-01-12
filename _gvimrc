@@ -7,9 +7,6 @@ endfunction
 
 colorscheme peachpuff
 
-" Add line numbers
-set number
-
 " PEP-8 style linewidth
 set textwidth=79
 

@@ -42,6 +42,9 @@ nnoremap <space> za
 set ignorecase
 set smartcase
 
+" Show line numbers
+set number
+
 " Default colorscheme
 colorscheme desert
 
