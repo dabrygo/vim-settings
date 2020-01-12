@@ -74,3 +74,8 @@ au BufNewFile,BufRead *.py
   \ set expandtab |
   \ set autoindent |
   \ set fileformat=unix
+
+" Check Python for whitespace before end of line
+highlight BadWhitespace ctermbg=red guibg=darkred
+au BufRead,BufNewFile *.py,*.pyw,*.c,*.h match BadWhitespace /\s\+$/
+autocmd ColorScheme * highlight BadWhitespace ctermbg=red guibg=darkred
