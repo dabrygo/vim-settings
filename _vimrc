@@ -1,28 +1,17 @@
+"""
 " Vundle  (https://github.com/gmarik/Vundle.vim.git)
+"""
 set nocompatible     " required
 filetype off         " required
-
-"""
-" Plugins
-"""
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
-
-" alternatively, pass a path where Vundle should install plugins
-"call vundle#begin('~/some/path/here')
-
-" let Vundle manage Vundle, required
-Plugin 'gmarik/Vundle.vim'
-
-" Folds classes/methods/etc.
-Plugin 'tmhedberg/SimpylFold'
-
-" add all your plugins here (note older versions of Vundle
-" used Bundle instead of Plugin)
-
-
-" All of your Plugins must be added before the following line
+  " alternatively, pass a path where Vundle should install plugins
+  "call vundle#begin('~/some/path/here')
+  " let Vundle manage Vundle, required
+  Plugin 'gmarik/Vundle.vim'
+  " Folds classes/methods/etc.
+  Plugin 'tmhedberg/SimpylFold'
 call vundle#end()            " required
 filetype plugin indent on    " required
 
