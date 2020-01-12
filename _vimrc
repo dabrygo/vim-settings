@@ -37,6 +37,12 @@ nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
 
+" Enable class/method/etc. folding
+set foldmethod=indent
+set foldlevel=99
+" Use spacebar to fold
+nnoremap <space> za 
+
 " Case-insensitive search if lowercase
 set ignorecase
 set smartcase
