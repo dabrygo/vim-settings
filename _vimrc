@@ -14,6 +14,8 @@ call vundle#begin()
   Plugin 'tmhedberg/SimpylFold'
   " Git commands in vim prefixed by G (e.g. `Gstatus`)
   Plugin 'tpope/vim-fugitive'
+  " VIM Status bar
+  Plugin 'vim-airline/vim-airline'
 call vundle#end()            " required
 filetype plugin indent on    " required
 
