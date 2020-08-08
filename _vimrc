@@ -49,6 +49,8 @@ set smartcase
 " Show line numbers
 set number
 
+set cursorline   " Highlight line cursor is on
+
 " Default colorscheme
 colorscheme desert
 
