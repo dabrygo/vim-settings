@@ -61,6 +61,17 @@ set directory=.swp,C:/WINDOWS/Temp,~/.vim/.swp,
 set undodir=.undo,C:/WINDOWS/Temp,~/.vim/.undo
 set writebackup
 
+" HTML
+au BufNewFile,BufRead *.html
+  \ set tabstop=2 |
+  \ set softtabstop=2 |
+  \ set shiftwidth=2 |
+  \ set textwidth=90 |
+  \ set expandtab |
+  \ set autoindent |
+  \ set fileformat=unix |
+  \ hi htmlLink guibg='NONE' guifg='NONE'
+
 " PEP8-compliant indentation/whitespace
 au BufNewFile,BufRead *.py
   \ set tabstop=4 |
@@ -75,3 +86,6 @@ au BufNewFile,BufRead *.py
 highlight BadWhitespace ctermbg=red guibg=darkred
 au BufRead,BufNewFile *.py,*.pyw,*.c,*.h match BadWhitespace /\s\+$/
 autocmd ColorScheme * highlight BadWhitespace ctermbg=red guibg=darkred
+
+"
+filetype plugin indent on
