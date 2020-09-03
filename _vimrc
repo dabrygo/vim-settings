@@ -1,3 +1,11 @@
+
+" Default colorscheme
+colorscheme desert
+set t_Co=256
+set cursorline
+highlight CursorLine term=bold cterm=bold guibg=Grey40
+
+"
 """
 " Vundle  (https://github.com/gmarik/Vundle.vim.git)
 """
@@ -51,9 +59,6 @@ set number
 
 set cursorline   " Highlight line cursor is on
 
-" Default colorscheme
-colorscheme desert
-
 " Don't save files that end with ~ to pwd
 " https://stackoverflow.com/a/6367422/11415371
 set backup
@@ -91,3 +96,5 @@ autocmd ColorScheme * highlight BadWhitespace ctermbg=red guibg=darkred
 
 "
 filetype plugin indent on
+
+
